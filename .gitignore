@@ -16,7 +16,7 @@ Thumbs.db
 
 # Node (se usar npm/yarn)
 node_modules/
-package-lock.json
+# package-lock.json - necessário para npm ci no CI/CD
 yarn.lock
 
 # Python
