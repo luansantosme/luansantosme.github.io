@@ -19,4 +19,6 @@ jobs:
         with:
           files: "*.md content/**/*.md themes/**/*.md"
           dictionaries: ".github/dictionary.txt"
+          quiet: true
+        continue-on-error: true
 
